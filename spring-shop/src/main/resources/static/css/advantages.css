@@ -1,0 +1,27 @@
+.div_front {
+    position: absolute;
+    z-index: 100;
+}
+
+.div_back_right {
+    position: absolute;
+    z-index: 0;
+    left: 800px;
+}
+
+.div_back_left {
+    position: absolute;
+    z-index: 0;
+    right: 1000px;
+}
+
+.adv-cont_title {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    margin-top: 50px;
+}
+
+
+

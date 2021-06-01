@@ -1,0 +1,187 @@
+body {
+    /*background-color: #000000;*/
+    position: relative;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova Rg', sans-serif;
+    overflow-x: hidden;
+    background: url("../assets/backsmoke.png") scroll;
+}
+
+h1, h2, h4 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+h5 {
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #9E31D1;
+}
+
+span {
+    white-space: nowrap;
+}
+
+footer .container {
+    margin-top: 100px;
+}
+
+.inner_form {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.links {
+    padding-top: 50px;
+}
+
+.phone {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.phone_top {
+    padding-top: 25px;
+}
+
+.offer-cont_title {
+    font-size: 48px;
+    margin-top: 200px;
+}
+
+.offer-cont_text {
+    font-size: 36px;
+    margin: 30px 0 70px;
+}
+
+.btn {
+    background: linear-gradient(270deg, #624FAE 16.12%, #9E31D1 69.22%);
+    box-shadow: 0px 8px 60px rgba(178, 49, 210, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 60px;
+    border-radius: 90px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, #9E31D1 16.12%, #624FAE 69.22%);
+}
+
+.adv-cont_title {
+    padding-top: 80px;
+}
+
+.cards {
+    padding-top: 70px;
+}
+
+.card-cont_title {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-cont_text {
+    padding-top: 5px;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.stages-cont_title {
+    padding-top: 140px;
+}
+
+.stages-cont_text {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.stages-cont_img {
+    padding-top: 85px;
+}
+
+.serv-cont_title, .auth-cont_title {
+    padding-top: 130px;
+}
+
+.text-services {
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-services:hover {
+    color: #9E31D1;
+    cursor: pointer;
+}
+
+.text-services:first-letter {
+    text-transform: capitalize;
+}
+
+.auth-cont_input {
+    background-color: #988CCA;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.auth-cont_input:focus {
+    background-color: #988CCA;
+    color: #1b1e21;
+}
+
+.card-gradient {
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(98, 79, 174, 0.50), 0 6px 10px 0 rgba(98, 79, 174, 0.50);
+    background: transparent linear-gradient(to right, #624FAE, #9E31D1);
+}
+
+.auth-cont_input::placeholder {
+    color: #1b1e21;
+}
+
+.content {
+    padding-bottom: 30px;
+}
+
+.foo {
+    background-color: transparent;
+}
+
+.cont_foo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+

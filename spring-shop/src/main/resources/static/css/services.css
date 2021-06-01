@@ -1,0 +1,132 @@
+.div_front {
+    position: absolute;
+    z-index: 100;
+}
+
+
+.div_back_right {
+    position: absolute;
+    z-index: 0;
+    left: 850px;
+}
+
+.autocomplete-items {
+    cursor: pointer;
+}
+
+.div_back_left {
+    position: absolute;
+    z-index: 0;
+    right: 900px;
+}
+
+.btn {
+    background: linear-gradient(270deg, #624FAE 16.12%, #9E31D1 69.22%);
+    box-shadow: 0px 8px 60px rgba(178, 49, 210, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, #9E31D1 16.12%, #624FAE 69.22%);
+}
+
+.form-check-label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.serv-cont_title {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    padding-top: 50px;
+}
+
+.search_block {
+    padding-top: 45px;
+}
+
+.search_block_input {
+    background-color: #988CCA;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.search_block_input:focus {
+    background-color: #988CCA;
+    color: #1b1e21;
+}
+
+
+.search_block_input::placeholder {
+    color: #1b1e21;
+}
+
+.filter {
+    padding-top: 30px;
+}
+
+.services {
+    padding-top: 40px;
+}
+
+.services_card {
+    border-radius: 20px;
+    height: 450px;
+}
+
+.services_title:first-letter {
+    text-transform: capitalize;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.services_img {
+    align-content: center;
+}
+
+.services_title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+
+.services_title:first-letter {
+    text-transform: capitalize;
+}
+
+.services_price {
+    color: #000000;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.services_btn {
+    border-radius: 90px;
+}
+
+.btn_pad {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn_ajax:focus {
+    padding: 15px 180px;
+}
+
+.first-letter {
+    text-transform: capitalize;
+}
+
+

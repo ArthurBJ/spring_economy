@@ -1,0 +1,31 @@
+
+.btn_basket {
+    background: linear-gradient(270deg, #624FAE 16.12%, #9E31D1 69.22%);
+    box-shadow: 0px 8px 60px rgba(178, 49, 210, 0.5);
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 90px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+.btn_basket:hover {
+    background: linear-gradient(270deg, #9E31D1 16.12%, #624FAE 69.22%);
+}
+
+.pay {
+    padding-top: 80px;
+}
+
+
+.footer {
+    border: solid 1px silver;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}

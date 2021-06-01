@@ -1,0 +1,95 @@
+.div_front {
+    position: absolute;
+    z-index: 100;
+}
+
+.div_back_right {
+    position: absolute;
+    z-index: 0;
+    left: 800px;
+}
+
+label {
+    color: black;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+.div_back_left {
+    position: absolute;
+    z-index: 0;
+    right: 1000px;
+}
+
+.btn {
+    background: linear-gradient(270deg, #624FAE 16.12%, #9E31D1 69.22%);
+    box-shadow: 0px 8px 60px rgba(178, 49, 210, 0.5);
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    border-radius: 90px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, #9E31D1 16.12%, #624FAE 69.22%);
+}
+
+.register-cont_title {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    padding-top: 50px;
+}
+
+.cards {
+    padding-top: 70px;
+}
+
+.register-cont_input {
+    background-color: #988CCA;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.register-cont_input:focus {
+    background-color: #988CCA;
+    color: #1b1e21;
+}
+
+.register-cont_input::placeholder {
+    color: #1b1e21;
+}
+
+.register-cont_input_top {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.register-cont_input_middle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.register-cont_input_bottom {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.auth-checkbox {
+    padding-top: 40px;
+}
+
+.checkbox_text {
+    color: black;
+}
+
+.card_settings {
+    border-radius: 20px;
+}
